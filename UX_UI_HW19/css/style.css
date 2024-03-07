@@ -1,0 +1,83 @@
+.heroImg{
+    background-image: url("../images/Profile\ pic.jpg");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+    height: 35vh;
+}
+
+
+body { 
+    background-color:rgb(255, 237, 218);
+    padding:0;
+    margin:0;
+    
+}
+
+header{
+    background-color: rgb(146, 146, 146);
+}
+
+.inline-blocklogo{
+    width: 40px;
+    height: 20px;
+
+}
+.inline-block{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo{
+    width: 23%;
+    padding: 1%;
+    background-color: rgb(225, 225, 214);
+}
+
+nav{
+    width: 72%;
+    padding:1%;
+    background-color: rgb(206, 232, 229);
+}
+
+ul{
+    width: 50%;
+    margin-left: auto
+}
+
+li{
+    padding: 10px;
+    background-color: rgb(80, 180, 216);
+}
+
+.herImg{
+    height: 600px;
+    background-color: brown;
+    padding: 25px;
+}
+
+.content{
+    width: 500px;
+    margin:0 auto;
+    background-color: rgb(80, 180, 216);
+
+}
+
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+
+
